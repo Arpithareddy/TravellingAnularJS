@@ -1,0 +1,35 @@
+<div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <form class="form-horizontal margin_top">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-12 control-label">First name</label>
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputEmail1" placeholder="First name" ng-model="emp.Firstname"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-12 control-label">Last name</label>
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputEmail2" placeholder="last name" ng-model="emp.Lastname"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-12 control-label">Email</label>
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email" ng-model="emp.Email"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-12 control-label">Phone</label>
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Phone" ng-model="emp.Phone"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <button ui-sref="Second" type="submit" class="btn btn-default" ng-click="next(emp)">Next</button>
+              </div>
+            </div>
+          </form>
+        </div>
+		</div>

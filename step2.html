@@ -1,0 +1,32 @@
+<div>
+          <form class="form-horizontal margin_top">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-12 control-label">Location</label>
+              <div class="col-sm-12">
+                <select class="form-control"  ng-model="dept.Location">
+                  <option>select</option>
+                  <option>Boston</option>
+                  <option>New York</option>
+                  <option>Chicago</option>
+                  <option>San Francisco</option>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Date departureg</label>
+              <div class="controls input-append date form_datetime" data-date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                <input type="text" class="form-control" ng-model="dept.departureg"/>
+              <br/>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Date Return</label>
+              <div class="controls input-append date form_datetime" data-date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                <input type="text"  class="form-control" ng-model="dept.Return"/>
+              <br/>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <button ui-sref="Third" type="submit" class="btn btn-default" ng-click="second(dept)" >Next</button>
+              </div>
+            </div>
+          </form></div>
